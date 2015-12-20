@@ -8,6 +8,9 @@ gem 'uglifier'
 gem 'coffee-rails'
 gem 'turbolinks'
 
+# Authentication
+gem 'nyauth'
+
 group :development, :test do
   gem 'byebug'
 end

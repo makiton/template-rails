@@ -1,0 +1,13 @@
+<div class="nyauth-error-messages">
+  <%= @client.errors.full_messages.join(',') %>
+</div>
+
+<%= form_for @client, url: password_path_for(nyauth_client_name) do |f| %>
+  <div>
+    <%= f.password_field :password, placeholder: 'password' %>
+  </div>
+  <div>
+    <%= f.password_field :password_confirmation, placeholder: 'password confirmation' %>
+  </div>
+  <%= f.submit t('nav.nyauth.common.update') %>
+<% end %>
