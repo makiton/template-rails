@@ -1,0 +1,19 @@
+{
+  "name": "rails-jinro",
+  "version": "1.0.0",
+  "description": "== README",
+  "author": "Shintaro Suzuki",
+  "license": "ISC",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4"
+  }
+}
