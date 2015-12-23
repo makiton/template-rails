@@ -92,6 +92,8 @@ GEM
       websocket-driver (>= 0.5.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
+    haml (4.0.7)
+      tilt
     hiredis (0.5.2)
     hitimes (1.2.3)
     i18n (0.7.0)
@@ -187,6 +189,7 @@ DEPENDENCIES
   binding_of_caller
   byebug
   coffee-rails
+  haml
   nyauth
   rails (>= 5.0.0.beta)
   sass-rails

@@ -3,10 +3,13 @@ ruby '2.2.3'
 
 gem 'rails', '>= 5.0.0.beta'
 gem 'sqlite3'
+
+# Frontend
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 gem 'turbolinks'
+gem 'haml'
 
 # Authentication
 gem 'nyauth'
