@@ -17,3 +17,5 @@ Rails.application.configure do
 
   config.action_view.raise_on_missing_translations = true
 end
+
+BetterErrors::Middleware.allow_ip! '127.0.0.1'
