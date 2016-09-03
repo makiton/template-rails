@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '>= 5.0.0.beta'
+gem 'rails', '~> 5.0.0'
 gem 'sqlite3'
 
 # Frontend
@@ -12,6 +12,7 @@ gem 'nyauth'
 
 group :development, :test do
   gem 'byebug'
+  gem 'pry-rails'
 end
 
 group :development do
