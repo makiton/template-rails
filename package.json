@@ -1,5 +1,5 @@
 {
-  "name": "rails-jinro",
+  "name": "rails-template",
   "version": "1.0.0",
   "description": "== README",
   "author": "Shintaro Suzuki",
@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "bootstrap": "^3.3.6",
-    "jquery": "^2.1.4"
+    "jquery": "^3.1.0"
   }
 }
