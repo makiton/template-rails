@@ -7,9 +7,6 @@ gem 'sqlite3', '~> 1.3.0'
 # Frontend
 gem 'haml'
 
-# Authentication
-gem 'nyauth'
-
 group :development, :test do
   gem 'byebug'
   gem 'pry-rails'
