@@ -1,5 +1,5 @@
 {
   "extends": [
-    "github>makiton/renovate-config", ":skipStatusChecks"
+    "github>makiton/renovate-config"
   ]
 }
