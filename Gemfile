@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.5.1'
 
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 7.0.0'
 gem 'sqlite3', '~> 1.3.0'
 
 # Frontend
