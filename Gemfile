@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '~> 7.0.0'
-gem 'sqlite3', '~> 1.4.0'
+gem 'sqlite3', '~> 1.7.0'
 
 # Frontend
 gem 'haml'
