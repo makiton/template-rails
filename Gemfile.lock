@@ -149,7 +149,8 @@ GEM
     rake (13.0.6)
     spring (2.0.2)
       activesupport (>= 4.2)
-    sqlite3 (1.4.4)
+    sqlite3 (1.7.3)
+      mini_portile2 (~> 2.8.0)
     temple (0.8.2)
     thor (1.1.0)
     tilt (2.0.10)
@@ -177,7 +178,7 @@ DEPENDENCIES
   pry-rails
   rails (~> 7.0.0)
   spring
-  sqlite3 (~> 1.4.0)
+  sqlite3 (~> 1.7.0)
   web-console
 
 BUNDLED WITH
